@@ -9,7 +9,7 @@ total_months = 0
 
 net_amount = 0
 
-monthly_change = []
+monthly_change = [0]
 
 month_count = []
 
