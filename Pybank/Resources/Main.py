@@ -21,7 +21,7 @@ greatest_decrease = 0
 
 greatest_decrease_month = 0
 
-budget = os.path.join("C:/Users/jgj2079/Desktop/BootCamp/Python-Challenge/Pybank/Resources/budget_data.csv")
+budget = os.path.join("Resources/budget_data.csv")
 print(budget)
 # Open the CSV
 with open(budget) as csvfile:
@@ -120,7 +120,7 @@ print(f"Greatest Decrease in Profits:, {greatest_decrease_month}, (${lowest})")
 
 #convert to text_file "Final Step#13"
 
-output_file = os.path.join("C:/Users/jgj2079/Desktop/BootCamp/Python-Challenge/Pybank/Resources/budget.txt")
+output_file = os.path.join("Resources/budget.txt")
 
 with open(output_file, 'w',) as txtfile:
 
