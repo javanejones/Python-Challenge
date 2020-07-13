@@ -15,7 +15,7 @@ li_votes = 0
 
 otooley_votes = 0
 
-pypoll= os.path.join("C:/Users/jgj2079/Desktop/BootCamp/Python-Challenge/PyPoll/election_data.csv")
+pypoll= os.path.join("PyPoll/election_data.csv")
 print(pypoll)
 
 
@@ -118,7 +118,7 @@ print(f"---------------------------")
 
 #convert to text_file "Final Step#12"
 
-output_file = os.path.join("C:/Users/jgj2079/Desktop/BootCamp/Python-Challenge/PyPoll/pypoll.txt")
+output_file = os.path.join("PyPoll/pypoll.txt")
 
 # Open File Using "Write" Mode. Specify The Variable To Hold The Contents
 
